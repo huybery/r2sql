@@ -3,7 +3,7 @@ The PyTorch implementation of paper [Dynamic Hybrid Relation Network for Cross-D
 
 
 ## Requirements
-The model is tested in python 3.6 with folloing requirements:
+The model is tested in python 3.6 with following requirements:
 ```
 torch==1.0.0
 transformers==2.10.0
