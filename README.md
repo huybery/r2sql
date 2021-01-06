@@ -1,5 +1,5 @@
 # R²SQL
-The PyTorch implementation of paper "Dynamic Hybrid Relation Network for Cross-Domain Context-Dependent Semantic Parsing." (AAAI 2021)
+The PyTorch implementation of paper [Dynamic Hybrid Relation Network for Cross-Domain Context-Dependent Semantic Parsing.](https://arxiv.org/pdf/2101.01686) (AAAI 2021)
 
 
 ## Requirements
