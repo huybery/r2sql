@@ -21,11 +21,12 @@ All experiments on SParC and CoSQL datasets were run on NVIDIA V100 GPU with 32G
 ## Setup
 
 The SParC and CoSQL experiments in two different folders, you need to download different datasets from [[SParC](https://yale-lily.github.io/spider) | [CoSQL](https://yale-lily.github.io/cosql)] to the `{sparc|cosql}/data` folder separately.
+Another related data file could be download from [EditSQL](https://github.com/ryanzhumich/editsql/tree/master/data).
 Then, download the database sqlite files from [[here](https://drive.google.com/file/d/1a828mkHcgyQCBgVla0jGxKJ58aV8RsYK/view?usp=sharing)] as `data/database`.
 
 Download Pretrained BERT model from [[here](https://drive.google.com/file/d/1f_LEWVgrtZLRuoiExJa5fNzTS8-WcAX9/view?usp=sharing)] as `model/bert/data/annotated_wikisql_and_PyTorch_bert_param/pytorch_model_uncased_L-12_H-768_A-12.bin`.
 
-Download Glove embeddings file and change the `GLOVE_PATH` for your own path in all scripts. 
+Download Glove embeddings file (`glove.840B.300d.txt`) and change the `GLOVE_PATH` for your own path in all scripts. 
 
 Download Reranker models from [[SParC reranker](https://drive.google.com/file/d/1cA106xgSx6KeonOxD2sZ06Eolptxt_OG/view?usp=sharing) | [CoSQL reranker](https://drive.google.com/file/d/1UURYw15T6zORcYRTvP51MYkzaxNmvRIU/view?usp=sharing)] as `submit_models/reranker_roberta.pt`
 
