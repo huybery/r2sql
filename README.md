@@ -28,7 +28,7 @@ Download Pretrained BERT model from [[here](https://drive.google.com/file/d/1f_L
 
 Download Glove embeddings file (`glove.840B.300d.txt`) and change the `GLOVE_PATH` for your own path in all scripts. 
 
-Download Reranker models from [[SParC reranker](https://drive.google.com/file/d/1cA106xgSx6KeonOxD2sZ06Eolptxt_OG/view?usp=sharing) | [CoSQL reranker](https://drive.google.com/file/d/1UURYw15T6zORcYRTvP51MYkzaxNmvRIU/view?usp=sharing)] as `submit_models/reranker_roberta.pt`
+Download Reranker models from [[SParC reranker](https://drive.google.com/file/d/1cA106xgSx6KeonOxD2sZ06Eolptxt_OG/view?usp=sharing) | [CoSQL reranker](https://drive.google.com/file/d/1UURYw15T6zORcYRTvP51MYkzaxNmvRIU/view?usp=sharing)] as `submit_models/reranker_roberta.pt`, besides the roberta-base model could download from [here](https://drive.google.com/file/d/1LkTe-Z0AFg2dAAWgUKuCLEhSmtW-CWXh/view?usp=sharing) for `./[sparc|cosql]/local_param/`.
 
 ## Usage
 
